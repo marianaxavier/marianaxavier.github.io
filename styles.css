@@ -112,8 +112,8 @@ nav a:hover {
 }
 
 .card-image img {
-  max-width: 100%;
-  height: auto;
+  max-height: 200px;
+  width: auto;
   display: block;
 }
 
@@ -140,8 +140,9 @@ nav a:hover {
 }
 
 .overlay-avatar-mari {
+  max-height: 100px !important;
   position: absolute;
   bottom: 20px;
-  right: 10px;
+  right: 10%;
   width: 30%;
 }
