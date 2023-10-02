@@ -115,6 +115,8 @@ nav a:hover {
   max-height: 200px;
   width: auto;
   display: block;
+  border-radius: 15%;
+  height: auto;
 }
 
 .card-content {
@@ -132,11 +134,6 @@ nav a:hover {
   font-size: 16px;
   color: #666;
   line-height: 1.4;
-}
-
-.background-image-mari {
-  height: auto;
-  border-radius: 10%;
 }
 
 .overlay-avatar-mari {
