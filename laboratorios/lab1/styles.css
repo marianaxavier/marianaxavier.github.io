@@ -224,3 +224,15 @@ nav a:hover {
   right: 10%;
   width: 30%;
 }
+
+.images img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.videos {
+  text-align: center;
+}
