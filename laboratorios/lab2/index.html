@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>CSM - 2023</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Codificação de Sinais Multimídia</h1>
+        <p>
+          Website desenvolvido para a apresentação dos relatórios desenvolvidos
+          para a disciplina de Codificação de Sinais Multimídia, ministrada pelo
+          professor Dr. Celso S. Kurashima.
+        </p>
+      </div>
+    </header>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Membros do Grupo</a></li>
+          <li><a href="#">Relatório 2</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <h2>Introdução</h2>
+      <h1>
+        Laboratório – Características TempoFrequência da Voz
+      </h1>
+
+      <p>
+        Objetivos:
+        1. Gravar e comparar sinais de voz com vários tipos de microfones: dinâmico, capacitivo;
+        2. Observar características temporais importantes no Sinal de Voz, como Envoltória de
+        Energia e Pitch, procurando automatizar sua detecção.
+        3. Observar com a ferramenta tempo-frequência, Espectrograma, características no DF da
+        voz como Frequência Fundamental (F0) e as Formantes.
+      </p>
+
+      <br>
+      <h2>Metodologia e Procedimentos</h2>
+      <p>
+        A primeira etapa para a realização deste relatório foi a escolha de um  microfone capacitivo Behinger (prata) com pedestal
+        e  um microfone dinâmico Shure (preto) com suporte de mesa conectados a uma mesa digitalizadora de audio: M-Audio Profire 610
+
+      </p>
+
+      <p>
+        Com os em microfones, foram capturados difentes audios com as vozes dos integrantes do grupo e comparamos os sinais utilizando o espectograma.
+      </p>
+
+      <h3>Audio dos integrantes do grupo com o microfone capacitivo</h3>
+
+      <p>
+        Audio e RA Adailson 
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Adailson/AdailsonAlvesDeSouza.wav" type="audio/wav">
+      </audio>
+      <audio controls>
+        <source src="Microfone Capacitivo/Adailson/RA11102814.wav" type="audio/wav">
+      </audio>
+      <p>
+        Audio e RA João Victor 
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Joao Victor/JoaoVictorMartinsReis.wav" type="audio/wav">
+      </audio>
+      <audio controls>
+        <source src="Microfone Capacitivo/Joao Victor/RA11201810522.wav" type="audio/wav">
+      </audio>
+
+      <p>
+        Audio e RA Marcelo 
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Marcelo/MarceloGulartSalinasVega.wav" type="audio/wav">
+      </audio>
+      <audio controls>
+        <source src="Microfone Capacitivo/Marcelo/RA11201921598.wav" type="audio/wav">
+      </audio>
+
+      <p>
+        Audio e RA Mariana 
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Mariana/MarianaFernandesXavier.wav" type="audio/wav">
+      </audio>
+      <audio controls>
+        <source src="Microfone Capacitivo/Mariana/RA11201722365.wav" type="audio/wav">
+      </audio>
+
+      <p>
+        Audio e RA Renan 
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Renan/RenanDiniz.wav" type="audio/wav">
+      </audio>
+      <audio controls>
+        <source src="Microfone Capacitivo/Renan/RA11201921891.wav" type="audio/wav">
+      </audio>
+
+      <h3>Comparação do espectrograma da “frase1” para diferente microfones</h3>
+      <div class="images">
+        <figure><img src="ex2.1.png"/><figcaption><b>Figura 1 -</b> Espectrograma da frase 1.</figcaption></figure>
+      </div>
+      <p>
+        Audio  Mariana frase 1 com o microfone dinamico
+      </p>
+      <audio controls>
+        <source src="Microfone Dinamico/Mariana/frase1.wav" type="audio/wav">
+      </audio>
+      <p>
+        Audio  Mariana frase 1 com o microfone capacitivo
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Mariana/frase_Mariana.wav" type="audio/wav">
+      </audio>
+
+      <h3>"Vambora" da Adriana Calcanhoto comparando com a voz do grupo</h3>
+        <div class="images">
+          <figure><img src="ex2.2.1.png"/><figcaption><b>Figura 1 -</b> Espectrograma da frase 1 com Adriana Calcanhoto.</figcaption></figure>
+        </div>
+        <div class="images">
+          <figure><img src="ex2.2.2.png"/><figcaption><b>Figura 1 -</b> Espectrograma da frase 1 com joão victor.</figcaption></figure>
+        </div>
+        <p>
+          Audio  Adriana Calcanhoto
+        </p>
+        <audio controls>
+          <source src="ex2.2_audio.mp3" type="audio/mp3">
+        </audio>
+        <p>
+          Audio  João Victor musica com microfone capacitivo
+        </p>
+        <audio controls>
+          <source src="Microfone Capacitivo/Joao Victor/frase1.wav" type="audio/wav">
+        </audio>
+
+      <h3>espectrograma de todo “verso1”, para o outro microfone e outro falante diferente do item anterior</h3>
+
+      <div class="images">
+        <figure><img src="ex2.3.1.png"/><figcaption><b>Figura 1 -</b> Espectrograma da frase 1 microfone capacitvo.</figcaption></figure>
+        <figure><img src="ex2.3.2.png"/><figcaption><b>Figura 1 -</b> Espectrograma da frase 1 microfone dinamico.</figcaption></figure>
+
+      </div>
+      <p>
+        Audio  Renam e marcelo da frase 1 no microfone capacitivo:
+      </p>
+      <audio controls>
+        <source src="Microfone Capacitivo/Renan/frase1Renan.wav" type="audio/wav">
+        <source src="Microfone Capacitivo/Marcelo/frase1Marcelo.wav" type="audio/wav">
+
+      </audio>
+      <p>
+        Audio  Renam e marcelo da frase 1 no microfone dinamico:
+      </p>
+      <audio controls>
+        <source src="Microfone Dinamico/Renan/frase1Renan.wav" type="audio/wav">
+        <source src="Microfone Dinamico/Marcelo/frase1Marcelo.wav" type="audio/wav">
+      </audio>
+      <p>
+        Audio  Mariana frase 1 com o microfone capacitivo
+      </p>
+
+      <h3> gravações e os espectrogramas da “Música1”</h3>
+
+      <div class="images">
+        <figure><img src="ex2.4.png"/><figcaption><b>Figura 1 -</b> Espectrograma da Musica 1 com todos os integrantes do grupo.</figcaption></figure>
+      </div>
+      <p>
+        Audio da musica com todos os integrantes
+      </p>
+      <audio controls>
+        <source src="twist_final.wav" type="audio/wav">
+      </audio>
+
+      <h3> Resposta das perguntas do relatorio</h3>
+      <div>
+        <h2> Em face das gravações efetuadas, como vocês definem o conceito de Prosódia? Qual a diferença entre voz falada normal, em verso, ou em música neste conceito?</h2>
+
+        <p>
+          A prosódia é o estudo dos padrões de ritmo e entonação na linguagem falada e cantada. Ela engloba elementos como a acentuação, a entoação, o ritmo, a velocidade e a pausa, e é fundamental para a compreensão e interpretação de um discurso ou de uma música. Na música, a prosódia é particularmente importante para garantir que as letras se encaixem adequadamente na melodia e para transmitir as nuances emocionais da música.
+
+          A principal diferença entre a voz falada normal, em verso e em música em termos de prosódia está na maneira como esses diferentes tipos de expressão vocal utilizam os elementos prosódicos para transmitir significado.
+          
+          Voz Falada Normal: Na fala cotidiana, a prosódia é usada para transmitir emoções, intenções e ênfases. A entonação e o ritmo podem ajudar a enfatizar certas palavras ou frases, transmitir humor, indicar perguntas, entre outras nuances comunicativas.
+          
+          Voz em Verso: A prosódia em verso, como na poesia, é altamente estruturada e segue padrões rítmicos específicos. A métrica, a rima e o ritmo são usados para criar um padrão sonoro consistente e estilizado, que pode variar de acordo com diferentes tradições poéticas.
+          
+          Voz em Música: Na música, a prosódia é essencial para a adequação das letras à melodia. A ênfase em certas sílabas e a adaptação do ritmo vocal para se alinhar com a batida da música são fundamentais para garantir que a mensagem lírica seja transmitida de forma eficaz e agradável aos ouvidos.
+          
+          Em resumo, a prosódia desempenha um papel crucial na forma como as palavras são comunicadas e interpretadas, seja na fala cotidiana, na poesia ou na música. Ela afeta diretamente a maneira como as mensagens são transmitidas e compreendidas pelos ouvintes, contribuindo para a expressividade e a eficácia da comunicação oral e musical.
+          
+        </p>
+
+      </div>
+
+      <h2>Conclusões</h2>
+      <p>
+        A partir dos resultados obtidos, é possível concluir que os espectogramas varia de acordo com a voz e os microfones também inteferem no sinal de audio obtido.
+      </p>
+    </div>
+  </body>
+</html>
